@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>tr-TR</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>fmRadyo</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>ekle</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menu Item</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>hakkında</value>
+  </data>
+  <data name="AddSomePreset" xml:space="preserve">
+    <value>frekans kaydet</value>
+  </data>
+  <data name="AlreadySavedFrequencyError" xml:space="preserve">
+    <value>Bu frekans zaten kayıtlı.</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>ve</value>
+  </data>
+  <data name="Between" xml:space="preserve">
+    <value>arasında</value>
+  </data>
+  <data name="CantTuneIntoThatFrequencyInYourRegion" xml:space="preserve">
+    <value>Mevcut bölgende bu frekansı çalamazsın.</value>
+  </data>
+  <data name="ChangeFmRadioRegion" xml:space="preserve">
+    <value>FM Radyo bölgesini değiştir</value>
+  </data>
+  <data name="ChangeFmRadioRegionDesc" xml:space="preserve">
+    <value>Uygulamanın FM Radyo bölgesini uygulama ayarları sayfasından değiştirebilirsiniz</value>
+  </data>
+  <data name="ChangeLog" xml:space="preserve">
+    <value>versiyon</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>temizle</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>sil</value>
+  </data>
+  <data name="DesignedAndDevelopedBy" xml:space="preserve">
+    <value>Tasarlayan ve geliştiren</value>
+  </data>
+  <data name="DirectlyTuneInfoACustomFrequency" xml:space="preserve">
+    <value>Dilediğin frekansa doğrudan bağlan</value>
+  </data>
+  <data name="DirectlyTuneInfoACustomFrequencyDesc" xml:space="preserve">
+    <value>Frekans girme sayfasına şu anda çalan frekans göstergesine basarak ulaşabilirsiniz</value>
+  </data>
+  <data name="DonateOrBuy" xml:space="preserve">
+    <value>uygulamaya bağış yap/satın al</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Hata!</value>
+  </data>
+  <data name="FeedbackEmail" xml:space="preserve">
+    <value>geri bildirim email</value>
+  </data>
+  <data name="FmRadioAppV" xml:space="preserve">
+    <value>fmRadyo Uygulaması v</value>
+  </data>
+  <data name="FmRadioRegion" xml:space="preserve">
+    <value>FM radyo bölgesi</value>
+  </data>
+  <data name="FrequencyCantBeEmpty" xml:space="preserve">
+    <value>Üzgünüm, frekans boş olamaz.</value>
+  </data>
+  <data name="FrequencyOutOfBounds" xml:space="preserve">
+    <value>Frekans kapsama alanı dışında</value>
+  </data>
+  <data name="FrequencySaveError" xml:space="preserve">
+    <value>Üzgünüm, frekansı kaydederken birşeyler ters gitti. Uygulamayı tekrar başlatmak sorunu çözebilir.</value>
+  </data>
+  <data name="HowTo" xml:space="preserve">
+    <value>nasıl yapılır</value>
+  </data>
+  <data name="InvalidInput" xml:space="preserve">
+    <value>Geçersiz giriş</value>
+  </data>
+  <data name="Japan" xml:space="preserve">
+    <value>Japonya</value>
+  </data>
+  <data name="MissingValue" xml:space="preserve">
+    <value>Eksik değer!</value>
+  </data>
+  <data name="NameYourPreset" xml:space="preserve">
+    <value>Kaydını isimlendir</value>
+  </data>
+  <data name="NoAntenna" xml:space="preserve">
+    <value>Anten Yok</value>
+  </data>
+  <data name="NoAntennaErrorMessage" xml:space="preserve">
+    <value>Kulaklığınız FM radyo anteni olarak kullanılmaktadır. FM radyo dinleyebilmek için kulaklık takınız.</value>
+  </data>
+  <data name="NoFmSupport" xml:space="preserve">
+    <value>Üzgünüm, bu cihaz FM Radyo desteklemiyor</value>
+  </data>
+  <data name="NoHeadPhoneIsPluggedError" xml:space="preserve">
+    <value>Kulaklık bağlantısı fm radyo anteni olarak çalışmaktadır, lütfen kulaklık takınız.</value>
+  </data>
+  <data name="NorthAmerica" xml:space="preserve">
+    <value>Kuzey Amerika</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>tamam</value>
+  </data>
+  <data name="OtherAppsaOfThisDeveloper" xml:space="preserve">
+    <value>diğer uygulamalar</value>
+  </data>
+  <data name="RateAndReview" xml:space="preserve">
+    <value>derecelendir ve değerlendir</value>
+  </data>
+  <data name="RateThisApp" xml:space="preserve">
+    <value>bu uygulamayı derecelendir</value>
+  </data>
+  <data name="RatingPromptBody" xml:space="preserve">
+    <value>Uygulamamıza 5 yıldız vermeni dileriz.
+
+Uygulama mağazasında göstereceğin sempati uygulamayı güncel tutmamıza ve her şeyin daha iyi olmasına yardımcı olacaktır!</value>
+  </data>
+  <data name="RatingPromptBtn1" xml:space="preserve">
+    <value>5 yıldız ver</value>
+  </data>
+  <data name="RatingPromptBtn2" xml:space="preserve">
+    <value>hayır teşekkürler</value>
+  </data>
+  <data name="RatingPromptCheckBox" xml:space="preserve">
+    <value>Bir daha sorma</value>
+  </data>
+  <data name="RatingPromptTitle" xml:space="preserve">
+    <value>fmRadyo'yu beğendin mi?</value>
+  </data>
+  <data name="RemoveOrRenameAPreset" xml:space="preserve">
+    <value>Frekans kaydını sil veya tekrar isimlendir</value>
+  </data>
+  <data name="RemoveOrRenameAPresetDesc" xml:space="preserve">
+    <value>Kayıtlı frekansın üzerine uzun basılı tutmak, frekansı düzenleyebilmeniz için pencere açacaktır</value>
+  </data>
+  <data name="RenameOrDeletePreset" xml:space="preserve">
+    <value>Frekans kaydını sil veya tekrar isimlendir</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>kaydet</value>
+  </data>
+  <data name="SaveEdit" xml:space="preserve">
+    <value>değişikliği kaydet</value>
+  </data>
+  <data name="SaveSetAPreset" xml:space="preserve">
+    <value>Frekans kaydet</value>
+  </data>
+  <data name="SaveSetAPresetDesc" xml:space="preserve">
+    <value>Like butonu çalan frekansı isimlendirebilmeniz ve kaydedebilmeniz için pencere açacaktır</value>
+  </data>
+  <data name="SetNewFrequency" xml:space="preserve">
+    <value>Yeni frekans ayarla</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>ayarlar</value>
+  </data>
+  <data name="SkipThroughPresets" xml:space="preserve">
+    <value>Kayıtlı frekanslar arasında geçiş</value>
+  </data>
+  <data name="SkipThroughPresetsDesc" xml:space="preserve">
+    <value>İleri ve geri butonları kayıtlı frekanslar arasında dilediğiniz frekansa ulaşmanızı sağlayacaktır</value>
+  </data>
+  <data name="SomethingHappened" xml:space="preserve">
+    <value>Birşeyler oldu</value>
+  </data>
+  <data name="TileBackText2" xml:space="preserve">
+    <value>Şimdi
+Çalıyor
+</value>
+  </data>
+  <data name="TileText1" xml:space="preserve">
+    <value>Biraz müzik çal</value>
+  </data>
+  <data name="TileText2" xml:space="preserve">
+    <value>Şimdi Çalıyor</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Bu ciddi bir problem. :( Lütfen bunu rapor et.</value>
+  </data>
+  <data name="UnreachableValue" xml:space="preserve">
+    <value>Ulaşılamaz değer!</value>
+  </data>
+  <data name="V101Desc" xml:space="preserve">
+    <value>- Küçük hata düzeltmeleri</value>
+  </data>
+  <data name="V102Desc" xml:space="preserve">
+    <value>- Küçük hata düzeltmeleri</value>
+  </data>
+  <data name="V103Desc" xml:space="preserve">
+    <value>- Derecelendirme ve değerlendirme için hatırlatma</value>
+  </data>
+  <data name="V105Desc1" xml:space="preserve">
+    <value>- Kuzey Amerika bölgesi frekans ayarlayıcısı için düzeltme. Artık sadece tek frekanslar gösteriliyor.</value>
+  </data>
+  <data name="V105Desc2" xml:space="preserve">
+    <value>- Hata düzeltmeleri</value>
+  </data>
+  <data name="V106Desc" xml:space="preserve">
+    <value>- Frekans göstergesi için hata düzeltmeleri</value>
+  </data>
+  <data name="V10Desc" xml:space="preserve">
+    <value>- İlk versiyon</value>
+  </data>
+  <data name="World" xml:space="preserve">
+    <value>Dünya</value>
+  </data>
+  <data name="LanguageSetting" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="BugFix" xml:space="preserve">
+    <value>- Hata düzeltmeleri</value>
+  </data>
+  <data name="MinorBugFix" xml:space="preserve">
+    <value>- Küçük hata düzeltmeleri</value>
+  </data>
+  <data name="V110Desc1" xml:space="preserve">
+    <value>- Uygulamayı desteklemek için uygulama için satın alım seçeneği eklendi</value>
+  </data>
+  <data name="V110Desc2" xml:space="preserve">
+    <value>- Yeni Türkçe dil desteği</value>
+  </data>
+</root>
